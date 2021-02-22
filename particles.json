@@ -1,0 +1,67 @@
+{
+    "particles": {
+        "number": {
+            "value": 100
+        },
+        "color": {
+            "value": "#fff"
+        },
+        "shape": {
+            "type": "circle",
+            "stroke": {
+                "width": 2,
+                "color": "#000"
+            },
+            "image": {
+                "src": ""
+            },
+            "opacity": {
+                "value": 0.9,
+                "random": true,
+                "anim": {
+                    "enable": true,
+                    "speed": 2,
+                    "opacity": 0.3
+                }
+            },
+            "size": {
+                "value": 100,
+                "random": true,
+                "anim": {
+                    "enable": true,
+                    "speed": 2
+                }
+            },
+            "line_linked": {
+                "distance": 200,
+                "color": "#fff",
+                "width": 4,
+                "enable": true
+            },
+            "move": {
+                "enable": true,
+                "direction": "top left",
+                "speed": 3
+            }
+        },
+        "interactivity": {
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "repulse"
+                },
+                "onclick": {
+                    "enable": true,
+                    "mode": "repulse"
+                }
+            },
+            "modes": {
+                "repulse": {
+                    "distance": 100,
+                    "duration": 2,
+                    "speed": 3,
+                    "size": 100
+                }
+            }
+        }
+    }
